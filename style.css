@@ -1,0 +1,60 @@
+body {
+    background: hsla(240, 73%, 65%, 1);
+    background: linear-gradient(90deg, hsla(240, 73%, 65%, 1) 0%, hsla(273, 75%, 66%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(240, 73%, 65%, 1) 0%, hsla(273, 75%, 66%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(240, 73%, 65%, 1) 0%, hsla(273, 75%, 66%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AF67E9", endColorstr="#6565E7", GradientType=1 );
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    border-radius: 30px;
+    height: 600px;
+    width: 1050px;
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.container-image {
+    display: flex;
+    width: 40%;
+    background-image: url('images/bg-pattern-desktop.svg');
+    background-position: right;
+    background-size: 200%;
+    align-items: center;  
+}
+
+.women-desktop {
+    position: relative;
+    left: -15%;
+}
+
+.a-image {
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.container-faq {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    padding-right: 30px;
+}
+
+.faq-text {
+    display: flex;
+}
